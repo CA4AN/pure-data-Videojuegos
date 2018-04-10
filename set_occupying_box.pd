@@ -1,0 +1,13 @@
+#N canvas 104 188 619 426 12;
+#X obj 160 13 inlet;
+#X obj 276 139 unpack f f;
+#X obj 327 170 * 10;
+#X obj 276 198 +;
+#X obj 342 37 inlet;
+#X obj 158 309 tabwrite occupying_boxes;
+#X connect 0 0 5 0;
+#X connect 1 0 3 0;
+#X connect 1 1 2 0;
+#X connect 2 0 3 1;
+#X connect 3 0 5 1;
+#X connect 4 0 1 0;

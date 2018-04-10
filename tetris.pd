@@ -1,0 +1,428 @@
+#N canvas 88 27 773 610 12;
+#X obj 100 100 cnv 15 200 400 empty bgcanvas empty 20 12 0 14 -233017
+-66577 0;
+#X obj 220 220 tgl 20 0 out square0 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 200 220 tgl 20 0 out square1 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 180 220 tgl 20 0 out square2 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 180 200 tgl 20 0 out square3 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square4 empty 0 -6 0 8 -250685 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square5 empty 0 -6 0 8 -250685 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square6 empty 0 -6 0 8 -250685 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square7 empty 0 -6 0 8 -250685 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square8 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square9 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square10 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square11 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square12 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square13 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square14 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square15 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square16 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square17 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square18 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square19 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square20 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square21 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square22 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square23 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square24 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square25 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square26 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square27 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square28 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square29 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square30 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square31 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square32 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square33 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square34 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square35 empty 0 -6 0 8 -44926 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square36 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square37 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square38 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square39 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square40 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square41 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square42 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square43 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square44 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square45 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square46 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square47 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square48 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square49 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square50 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square51 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square52 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square53 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square54 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square55 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square56 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square57 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square58 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square59 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square60 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square61 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square62 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square63 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square64 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square65 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square66 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square67 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square68 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square69 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square70 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square71 empty 0 -6 0 8 -24198 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square72 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square73 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square74 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square75 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square76 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square77 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square78 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square79 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square80 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square81 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square82 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square83 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square84 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square85 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square86 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square87 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square88 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square89 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square90 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square91 empty 0 -6 0 8 -62784 -1 -262144 0
+1;
+#X obj 0 0 tgl 20 0 out square92 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square93 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square94 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square95 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square96 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square97 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square98 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square99 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square100 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square101 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square102 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square103 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square104 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square105 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square106 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square107 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square108 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square109 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square110 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square111 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square112 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square113 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square114 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square115 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square116 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square117 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square118 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square119 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square120 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square121 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square122 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square123 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square124 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square125 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square126 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square127 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square128 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square129 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square130 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square131 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square132 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square133 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square134 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square135 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square136 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square137 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square138 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square139 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square140 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square141 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square142 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square143 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square144 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square145 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square146 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square147 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square148 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square149 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square150 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square151 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square152 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square153 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square154 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square155 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square156 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square157 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square158 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square159 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square160 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square161 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square162 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square163 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square164 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square165 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square166 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square167 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square168 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square169 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square170 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square171 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square172 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square173 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square174 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square175 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square176 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square177 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square178 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square179 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square180 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square181 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square182 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square183 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square184 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square185 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square186 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square187 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square188 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square189 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square190 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square191 empty 0 -6 0 8 -24198 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square192 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square193 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square194 empty 0 -6 0 8 -258699 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square195 empty 0 -6 0 8 -260818 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square196 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square197 empty 0 -6 0 8 -62784 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square198 empty 0 -6 0 8 -241291 -1 -262144
+0 1;
+#X obj 0 0 tgl 20 0 out square199 empty 0 -6 0 8 -250685 -1 -262144
+0 1;
+#X obj 320 140 tgl 20 0 out square200 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 340 140 tgl 20 0 out square201 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 360 140 tgl 20 0 out square202 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 340 120 tgl 20 0 out square203 empty 0 -6 0 8 -44926 -1 -262144
+0 1;
+#X obj 30 0 cnv 15 120 30 empty gameovercanvas GAMEOVER 4 16 1 14 -258699
+-66577 0;
+#X obj 308 405 bng 25 250 50 0 pause xxx PAUSE 32 12 1 18 -258699 -241291
+-258699;
+#X obj 308 371 bng 25 250 50 0 startnewgame xxx NEWGAME 32 12 1 18
+-258699 -241291 -258699;
+#X text 309 444 KEYS:;
+#X text 308 466 Left \, Down \, Right: move piece;
+#X text 308 485 Up: rotate piece;
+#X obj 352 22 main;
+#X obj 0 -11 cnv 15 400 60 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 9 -13 A 100% PD-made TETRIS game;
+#X text 9 2 by Matteo Sisti Sette.;
+#X text 8 31 Move this canvas to unveal its secrets;
+#X obj 507 377 vsl 15 60 0 1 0 0 musicvolume musicvolumeslider VOLUME
+0 -8 0 8 -24198 -1 -1 200 1;
